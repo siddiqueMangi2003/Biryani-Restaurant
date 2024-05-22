@@ -1,0 +1,313 @@
+.reservation-hero-image {
+  position: relative;
+  top: 20px;
+  
+}
+
+
+
+.logo-container {
+  max-width: 100%;
+  display: flex;
+  align-items: center; 
+}
+
+
+.logo {
+  font-size: 2em; 
+  margin-right: 10px; 
+  max-width: 100%;
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center; 
+  font-size: 1.5em; 
+}
+
+
+.navbar {
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 0.9em;
+    margin-right: 10px;
+  }
+  .logo {
+    font-size: 1.5em; 
+  }
+}
+
+
+.custom-link {
+  text-decoration: none;
+  color: white;
+}
+
+.row-heogt {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.jumbotron {
+  position: relative;
+  background-image: url('./images/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  background-color: #cf9424;
+}
+
+.jumbotron div {
+  height: 350px;
+}
+
+.btn-custom {
+  background-color: #424242;
+  border-color: #333; 
+  color: #fff; 
+  font-size: 1.125em; 
+  padding: 0.625em 1.25em; 
+  border-radius: 0; 
+  transition: all 0.3s ease; 
+}
+
+.btn-custom:hover {
+  background-color: #424242;
+  border-color: #333; 
+}
+
+.hero {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center; 
+  padding: 1.875em;
+  gap: 1.875em; 
+}
+
+.hero-text {
+  max-width: 400px;
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 2em; 
+  font-weight: bold;
+  margin-bottom: 1.25em; 
+  line-height: 1.2;
+  text-align: start;
+}
+
+.hero-text p {
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 1.25em;
+}
+
+.hero-image img {
+  height: 25em; 
+  border-radius: 10px;
+}
+
+
+footer {
+  margin-top: 100px;
+  background-color: #333; 
+  color: #fff; 
+  padding: 2.5em 0; 
+  font-size: 1em; 
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  margin: 0 0.625em; 
+}
+
+.contact-list {
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.625em; 
+}
+
+.contact-list li i {
+  margin-right: 0.3125em; 
+}
+
+.story-footer {
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 25em; 
+}
+
+.reservation-footer {
+  position: relative;
+  bottom: 0; 
+  width: 100%; 
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center; 
+}
+
+.reservation-content {
+  width: 80%; 
+  padding: 1.25em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-right: 1.25em; 
+}
+
+.reservation-content input[type="text"],
+.reservation-content input[type="number"],
+.reservation-content select,
+.reservation-content textarea {
+  width: calc(100% - 1.25em); 
+  padding: 0.625em;
+  margin-bottom: 1.25em; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.reservation-content input[type="radio"] {
+  margin-right: 0.625em; 
+}
+
+.reservation-content label {
+  margin-right: 0.9375em; 
+}
+
+.reservation-content button {
+  padding: 0.625em 1.25em; 
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.reservation-content button:hover {
+  background-color: #0056b3;
+}
+
+.reservation-content .form-check {
+  margin-bottom: 1.25em; 
+}
+
+.reservation-hero-image img {
+  
+  max-width: 100%; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.location-footer {
+  margin-top: 100px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 0.5em; 
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+
+.embed-responsive {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-thumbnail {
+  height: 12.5em;
+}
+
+.sidebar ul li a:link {
+  color: #1a0dab; 
+  text-decoration: underline;
+}
+
+/* Visited Links */
+.sidebar ul li a:visited {
+  color: #6b4b87; 
+  text-decoration: underline;
+}
+
+/* Hover Links */
+.sidebar ul li a:hover {
+  color: #ff7f7f; 
+  text-decoration: underline;
+}
+
+/* Active Links */
+.sidebar ul li a:active {
+  color: #ff4500; 
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 100%; 
+}
+
+.small-text {
+  font-family: Arial, sans-serif;
+  font-size: 75%; 
+}
+
+.transcript {
+  margin-top: 1.25em; 
+}
+
+.transcript h2 {
+  font-size: 1.5em; 
+  color: #333; 
+  margin-bottom: 0.625em; 
+}
+
+.transcript p {
+  font-size: 1.125em; 
+  line-height: 1.5; 
+  color: #666;
+}
